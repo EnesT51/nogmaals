@@ -11,8 +11,8 @@ for robotarm in range(7):
     if color != "":
         for r in range(beweeg):
             robotArm.moveRight()
-        beweeg +=1
         robotArm.drop()
+        beweeg +=1
         for i in range(beweeg):
             robotArm.moveLeft()
     else:
